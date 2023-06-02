@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Aoboshi One', serif;
+
+}
+body{
+    /* background: linear-gradient(#040228 0%, #7c0036 80%); */
+    background-image: url("background.png");
+
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    color: #fff;
+    font-size: 2em;
+    cursor: default;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+    transition: 100ms;
+}
+.navbar a:hover, 
+.navbar a.active{
+    background: #00a3b9;
+}
+.content{
+    background-color: white;
+    margin: 1%;
+    border-radius: 10em;
+    padding: 1%;
+}
+.parallax div h1{
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    color: #ff0000;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10vh;
+    word-spacing: .5vh;
+}
+
+.parallax div{
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background-color: #00fbff1e; */
+    min-height: 100vh;
+    background-image: url("grass.png");
+
+    min-height: 100vh;
+    overflow-x: hidden;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about{
+    background-color: #ffffff1e;
+    padding: 1vh;
+    background-color: #000;
+    min-height: 100vh;
+}
+.about h1{
+    text-align: center;
+    color: #fff;
+}
+.about p{
+    padding-top: 5vh;
+    color: #fff;
+    font-size: 3vh;
+}
+
