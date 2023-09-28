@@ -59,11 +59,12 @@ header{
     display: table-cell;
     height: 100%;
     width: 100%;
-    color: #00ffd5;
+    color: #c600ff;
     text-align: center;
     vertical-align: middle;
     font-size: 10vh;
     word-spacing: .5vh;
+    text-shadow: 0 0 20px #ff0050;
 }
 
 .parallax div{
